@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,800&family=Public+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-right: 8%;
+
+
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+span{
+    color: #f9004d;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+ul li a{
+    text-decoration: none ;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: #f9004d;
+}
+.btn{
+    color: white;
+    background-color: #f9004d;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.6 ease;
+
+
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+ position: absolute;
+ top: 40%;
+ left: 5%;
+transform: translateY(-50);
+}
+h1{
+    color: black;
+    font-size: 70px ;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: orangered;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+
+ 
+}
+.email-submit form{
+    width: 340px;
+    max-width: 100%;
+    position: relative;
+}
+.email-submit form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px ;
+    border-radius: 30px;
+    border: 2px solid #f9004d;
+    outline: none;
+    cursor: pointer;
+
+
+}
+.email-submit form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 10px 40px ;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f9004d;
+    color: white;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
